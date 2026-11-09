@@ -1,13 +1,11 @@
-**Bài 2 : Xử lý lỗi thư viện mã nguồn mở bằng GitHub Issues** 
-
-**Yêu cầu đầu ra:**  
-\- bình luận có nhiều reactions thumbs up, hearts, vì nhiều người đã thử và thấy có ích.  
-\- đọc thử những nội dung gửi đoạn mã dài (đọc và kiểm tra thật kỹ khi sử dụng)  
-\- đọc các comment trái chiều để biết được vấn đề người ta mắc phải khi sử dụng là gì để cân nhắc có nên sử dụng hay không
-
- \- workaround là sẽ đưa ra phương pháp sửa lỗi tạm thời, trong khi đi đang đợi tác giả đưa ra bản vá lỗi chính thức 
-
-- Áp dụng Workaround giúp các developer thử nghiệm, phát triển các tính năng khắc phục lỗi khác mà không bị phụ thuộc hoàn toàn vào cách sửa lỗi của tác giả.  
-- Phải áp dụng Workaround để sửa lỗi và cho kịp deadline.
-
-   
+**bình luận ưu tiên đọc**
+ 
+- bình luận có nhiều reactions thumbs up, hearts, vì nhiều người đã thử và thấy có ích
+- bình luận của người duy trì dự án (maintainer), vì họ hiểu rõ lỗi nhất
+- bình luận ghi rõ hệ điều hành, phiên bản và còn mới
+- reactions nhiều vẫn phải kiểm tra lại có hợp với máy mình không, đoạn mã dài thì hiểu rồi mới chạy
+**workaround và tại sao không nên đợi bản cập nhật**
+ 
+workaround là cách khắc phục tạm để vẫn làm việc được khi nhà sản xuất chưa có bản sửa chính thức. ví dụ dùng phiên bản cũ hơn của thư viện hoặc thêm một đoạn mã để né lỗi.
+ 
+không nên đợi bản cập nhật vì issue đang open, chưa biết bao giờ mới sửa xong, mình đang cần làm bài và bị chậm tiến độ. dùng workaround thì làm tiếp được ngay. sau này có bản sửa chính thức thì bỏ workaround và cập nhật lên.
